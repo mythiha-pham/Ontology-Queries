@@ -1,18 +1,9 @@
-## Getting Started
+# Ontology Queries - The Game Awards Analysis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This project implements SPARQL queries to analyze The Game Awards (TGA) data from 2020-2024 using Apache Jena. The queries explore various aspects of the awards, including event information, game achievements, and developer statistics.
 
-## Folder Structure
+## Usage
 
-The workspace contains two folders by default, where:
+1. Run the `QueryExecutor.java` file
+2. Results will be written to `query_results.txt` in the project root directory
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
