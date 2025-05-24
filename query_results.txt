@@ -1,0 +1,43 @@
+=== All Award Events with Optional Hosts and Dates ===
+event     host            date                  
+
+------------------------------------------------
+TGA_2020  null            2020-12-10T00:00:00Z  
+TGA_2021  Geoff Keighley  2021-12-09T00:00:00Z  
+TGA_2022  Geoff Keighley  2022-12-08T00:00:00Z  
+TGA_2023  Geoff Keighley  null                  
+TGA_2024  Geoff Keighley  2024-12-12T00:00:00Z  
+
+=== Award Events with Known Hosts and Dates ===
+event     host            date                  
+
+------------------------------------------------
+TGA_2021  Geoff Keighley  2021-12-09T00:00:00Z  
+TGA_2022  Geoff Keighley  2022-12-08T00:00:00Z  
+TGA_2024  Geoff Keighley  2024-12-12T00:00:00Z  
+
+=== Query for most awarded game in 2020 ===
+game                    awardCount  
+
+------------------------------------
+The_Last_of_Us_Part_II           6  
+
+=== Categories Not Presented in 2020 ===
+category               
+
+-----------------------
+Best_Debut_Indie_Game  
+Best_Independent_Game  
+
+=== Developer with Most Awards ===
+developer     awardCount  
+
+--------------------------
+Nintendo EPD           6  
+
+=== Genre with Highest Number of Award-Winning Titles ===
+genre             winCount  
+
+----------------------------
+Action-adventure        15  
+
